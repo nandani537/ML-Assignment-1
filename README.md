@@ -27,7 +27,7 @@ This repository contains Assignment 1 for a Machine Learning course. The assignm
 - **Description**: Brief description of the dataset (number of rows, columns, type of data, etc.).
 
 ---
-🔍 Data Loading & Preprocessing
+## Data Loading & Preprocessing
 
 Loading the Data
 Before performing any data preprocessing or model training, we begin by loading the dataset and conducting an initial inspection.
@@ -39,7 +39,7 @@ Steps:
 ✅ Inspect the first data point: Print all feature values of the first record to get an overview of the dataset content.
 ✅ Check dataset dimensions: Print the dataset shape to determine the number of rows and columns.
 
-2️⃣ Install Dependencies
+## Install Dependencies
 Ensure you have Python and Jupyter Notebook installed. Install required libraries using:
 
 pip install -r requirements.txt
@@ -50,19 +50,19 @@ Launch Jupyter Notebook and open MLassign1.ipynb:
 
 jupyter notebook
 
-🔍 Data Loading & Preprocessing
+## Data Loading & Preprocessing
 
 Loading the Data
 Before performing any data preprocessing or model training, we begin by loading the dataset and conducting an initial inspection.
 
-Steps:
+## Steps:
 
 ✅ Load the dataset: Read the weather data from a CSV file using Pandas.
 ✅ Check data types: Displaying column data types helps us understand the dataset structure.
 ✅ Inspect the first data point: Print all feature values of the first record to get an overview of the dataset content.
 ✅ Check dataset dimensions: Print the dataset shape to determine the number of rows and columns.
 
-Data Points
+## Data Points
 Each data point corresponds to a specific hour, e.g., 06-April-2023 from 06:00 - 07:00, recorded as 2023-04-06 06:00:00 (starting time) after preprocessing.
 
 📌 Features: All hourly observations from the previous 5 hours. Example:
@@ -75,14 +75,14 @@ For the data point 2023-04-06 06:00:00, the target variable is the temperature a
 📌 Example Visualization:
 (Add a sample plot image here if available)
 
-🤖 Machine Learning Models
+## Machine Learning Models
 
 Implemented Models:
 ✅ Linear Regression – Predicts a continuous target variable.
 ✅ Convolutional Neural Network –  CNNs are well-suited for sequential data as they can capture local patterns and temporal dependencies.
 ✅ Decision tree regressor –  a non-parametric model that can capture nonlinear relationships in the data.
 
-Performance Metrics Evaluated:
+## Performance Metrics Evaluated:
 ✔️ RMSE (for regression tasks).
 
 🛠 Technologies Used
@@ -92,7 +92,7 @@ Jupyter Notebook
 NumPy, Pandas, Matplotlib
 Scikit-learn
 
-📬 Contact
+### Contact
 
 For any queries, feel free to reach out or raise an issue.
 
