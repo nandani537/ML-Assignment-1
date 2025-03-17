@@ -31,22 +31,18 @@ This repository contains Assignment 1 for a Machine Learning course. The assignm
 
 ### 1. Clone the Repository
 git clone https://github.com/nandani537/ML-Assignment-1.git
-
 cd ML-Assignment-1
 
 ### 2. Install Dependencies
 Ensure you have Python and Jupyter Notebook installed. Install required libraries using:
-
 pip install -r requirements.txt
 (If there's no requirements.txt, manually install NumPy, Pandas, Matplotlib, Scikit-learn, etc.)
 
 ### 3. Run the Notebook
 Launch Jupyter Notebook and open MLassign1.ipynb:
-
 jupyter notebook
 
 ## Data Loading & Preprocessing
-
 Loading the Data
 Before performing any data preprocessing or model training, we begin by loading the dataset and conducting an initial inspection.
 
@@ -71,7 +67,6 @@ For the data point 2023-04-06 06:00:00, the target variable is the temperature a
 (Add a sample plot image here if available)
 
 ## Machine Learning Models
-
 Implemented Models:
 ✅ Linear Regression – Predicts a continuous target variable.
 ✅ Convolutional Neural Network –  CNNs are well-suited for sequential data as they can capture local patterns and temporal dependencies.
@@ -81,7 +76,6 @@ Implemented Models:
 ✔️ RMSE (for regression tasks).
 
 ## Technologies Used
-
 Python
 Jupyter Notebook
 NumPy, Pandas, Matplotlib
