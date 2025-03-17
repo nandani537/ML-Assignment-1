@@ -45,9 +45,6 @@ Launch Jupyter Notebook and open MLassign1.ipynb:
 
 jupyter notebook
 
-## Install Dependencies
-Ensure you have Python and Jupyter Notebook installed. Install required libraries using:
-
 ## Data Loading & Preprocessing
 
 Loading the Data
