@@ -27,28 +27,25 @@ This repository contains Assignment 1 for a Machine Learning course. The assignm
 - **Description**: Brief description of the dataset (number of rows, columns, type of data, etc.).
 
 ---
-## Data Loading & Preprocessing
+## Getting Started
 
-Loading the Data
-Before performing any data preprocessing or model training, we begin by loading the dataset and conducting an initial inspection.
+### 1. Clone the Repository
+git clone https://github.com/nandani537/ML-Assignment-1.git
+cd ML-Assignment-1
 
-Steps:
-
-✅ Load the dataset: Read the weather data from a CSV file using Pandas.
-✅ Check data types: Displaying column data types helps us understand the dataset structure.
-✅ Inspect the first data point: Print all feature values of the first record to get an overview of the dataset content.
-✅ Check dataset dimensions: Print the dataset shape to determine the number of rows and columns.
-
-## Install Dependencies
+### 2. Install Dependencies
 Ensure you have Python and Jupyter Notebook installed. Install required libraries using:
 
 pip install -r requirements.txt
 (If there's no requirements.txt, manually install NumPy, Pandas, Matplotlib, Scikit-learn, etc.)
 
-3️⃣ Run the Notebook
+### 3. Run the Notebook
 Launch Jupyter Notebook and open MLassign1.ipynb:
 
 jupyter notebook
+
+## Install Dependencies
+Ensure you have Python and Jupyter Notebook installed. Install required libraries using:
 
 ## Data Loading & Preprocessing
 
@@ -85,7 +82,7 @@ Implemented Models:
 ## Performance Metrics Evaluated:
 ✔️ RMSE (for regression tasks).
 
-🛠 Technologies Used
+## Technologies Used
 
 Python
 Jupyter Notebook
