@@ -31,6 +31,7 @@ This repository contains Assignment 1 for a Machine Learning course. The assignm
 
 ### 1. Clone the Repository
 git clone https://github.com/nandani537/ML-Assignment-1.git
+
 cd ML-Assignment-1
 
 ### 2. Install Dependencies
